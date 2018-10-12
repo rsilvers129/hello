@@ -5,6 +5,8 @@ import (
 	"strings"
 )
 
+// Woot! !!!
+
 func sayHello(w http.ResponseWriter, r *http.Request) {
 	message := r.URL.Path
 	message = strings.TrimPrefix(message, "/")
